@@ -26,7 +26,24 @@
 ## Package
 - [opossum](https://www.npmjs.com/package/opossum)
 - [pybreaker](https://github.com/danielfm/pybreaker)
+- [circuitbreaker](https://github.com/fabfuel/circuitbreaker)
 
+## How to start
+
+- Install Packages
+```
+$ pipenv install
+```
+
+- Running Server
+```
+$ pipenv shell
+$ python app/main.py
+INFO:     Started server process [67955]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+```
 
 ## Reference
 - [Circuit breaker pattern — What and why?](https://medium.com/bonniernewstech/circuit-breaker-pattern-what-and-why-a17f8babbec0)

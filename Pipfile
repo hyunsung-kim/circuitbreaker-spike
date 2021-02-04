@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 circuitbreaker = "*"
+fastapi = "*"
+uvicorn = "*"
+pybreaker = "*"
+redis = "*"
+requests = "*"
 
 [dev-packages]
 

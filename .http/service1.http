@@ -1,0 +1,14 @@
+### serivce1 - error
+GET http://localhost:8000/cb-test/0
+
+
+### serivce1 - success
+GET http://localhost:8000/cb-test/2
+
+
+### service2 - success
+GET http://localhost:8001/success
+
+
+### service2 - error
+GET http://localhost:8001/error
